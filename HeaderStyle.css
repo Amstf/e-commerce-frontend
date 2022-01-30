@@ -11,7 +11,7 @@ header {
 }
 .row {
   display: flex;
-  /* flex-wrap: wrap;*/
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
@@ -216,6 +216,10 @@ h3 {
   justify-content: center;
   flex-wrap: wrap;
 }
+.footer-icon div {
+  font-size: 30px;
+  cursor: pointer;
+}
 .css-vubbuv {
   user-select: none;
   width: 1em;
@@ -240,9 +244,9 @@ h3 {
   width: 300px;
   display: flex;
   flex-direction: column;
-  --swiper-theme-color: #020508;
+  /* --swiper-theme-color: #020508;
   --swiper-navigation-size: 44px;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased; */
   color: #fff;
   margin: 0;
   padding: 10px;
@@ -291,4 +295,10 @@ h3 {
   font-size: 20px;
   padding: 15px;
   margin-bottom: 10px;
+}
+
+@media (max-width: 963px) {
+  .footer {
+    justify-content: center;
+  }
 }
