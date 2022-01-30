@@ -1,0 +1,49 @@
+.navibar-comz {
+  position: relative;
+  z-index: 1000;
+}
+.navibar-comz {
+  display: flex;
+  justify-content: center;
+}
+.navibar-comz .nav-leftboxz {
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  height: 30px;
+  border-top-right-radius: 40px;
+  position: relative;
+  left: 2px;
+  bottom: 2px;
+  width: 50px;
+}
+.navibar-comz .nav-rightboxz {
+  border-left: 2px solid #fff;
+  border-top-left-radius: 40px;
+  border-top: 2px solid #fff;
+  position: relative;
+  right: 2px;
+  bottom: 2px;
+  height: 30px;
+  width: 50px;
+}
+.navibar-comz .navvv-constainerz {
+  display: flex;
+  justify-content: space-evenly;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  color: #fff;
+  width: 350px;
+  height: 25px;
+  margin-bottom: 10px;
+}
+.navibar-comz .navvv-constainerz a {
+  position: relative;
+  bottom: 30px;
+  width: 78px;
+  text-align: center;
+  height: 30px;
+  padding: 18px 10px 7px;
+}
