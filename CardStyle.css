@@ -33,7 +33,7 @@ a {
 }
 
 .cards-wrapper {
-  background-color: red;
+  background-color: #292929;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -45,7 +45,7 @@ a {
   height: 12em;
   width: 7em;
   font-size: 1.5em;
-  color: white;
+  color: rgb(248 249 251 / 0%);
   border-radius: 1em;
   padding: 1em;
   margin: 1em;
@@ -53,13 +53,12 @@ a {
   align-items: flex-end;
   background-size: cover;
   background-position: center;
-  box-shadow: 0 0 5em -1em black;
+  box-shadow: 0 0 5em -1em #f31414;
   transition: all, var(--transition-time);
   position: relative;
   overflow: hidden;
   border: 10px solid #ccc;
   text-decoration: none;
-  background-image: url("https://images.pexels.com/photos/10176829/pexels-photo-10176829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
 }
 
 .card:hover {

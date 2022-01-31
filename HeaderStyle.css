@@ -266,13 +266,14 @@ h3 {
 }
 .title-1 {
   display: flex;
-  margin-top: 2rem;
+
   justify-content: center;
 }
 .title-1 h1 {
   font-family: "Rosario", sans-serif;
   color: rgb(236, 227, 227);
   padding: 1rem;
+  margin-top: 2rem;
   border-top: 2px solid #fff;
   border-bottom: 2px solid #fff;
   text-transform: uppercase;
