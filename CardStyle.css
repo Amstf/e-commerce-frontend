@@ -43,7 +43,7 @@ a {
   font-family: "Heebo";
   --bg-filter-opacity: 0.5;
   height: 12em;
-  width: 7em;
+  width: 13em;
   font-size: 1.5em;
   color: rgb(248 249 251 / 0%);
   border-radius: 1em;
@@ -53,7 +53,7 @@ a {
   align-items: flex-end;
   background-size: cover;
   background-position: center;
-  box-shadow: 0 0 5em -1em #f31414;
+  /* box-shadow: 0 0 5em -1em #f31414; */
   transition: all, var(--transition-time);
   position: relative;
   overflow: hidden;
@@ -119,6 +119,7 @@ a {
   z-index: -5;
   transition: all, var(--transition-time);
   transition-timing-function: ease-in-out;
+  
 }
 
 .card:before {

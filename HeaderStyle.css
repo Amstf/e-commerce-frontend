@@ -28,7 +28,7 @@ header {
 }
 header a {
   color: #fe8033;
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 a {
   color: inherit;
